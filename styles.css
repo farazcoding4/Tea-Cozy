@@ -1,0 +1,117 @@
+.navbar {
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    padding-left: 10px;
+    position: fixed;
+    z-index: 10;
+    margin-top: 0;
+}
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+.navbar_menu {
+    float: right;
+    margin-left: 10px;
+    margin-right:10px;
+    text-decoration: underline;
+}
+.mission_container {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+}
+
+.mission_div {
+    width: 1200px;
+    height: 50px;
+    background-color: black;
+}
+.mission_content {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+.mission_background {
+    z-index: 5;
+}
+main {
+    padding-top: 0px;
+    position: relative;
+    top: 69px;
+    z-index: 5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+.logo {
+    position: relative;
+    top: 10px;
+  }
+.navbar_menu {
+    position: relative;
+    top: 20px;
+}
+.middle_container{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.middle_container_2 {
+    display: flex;
+    justify-content: center;
+}
+.middle_container_photo{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+.end_container_photo {
+    background-image: url("img-locations-background.jpg");
+    width: 1200px;
+    height: 565px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blackbox {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    opacity: 1;
+}
+.end_title {
+    font-size: 22px;
+    font-family: Helvetica;
+}
+.contact_container {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.footer{
+    padding-left: 20px;
+    height: 50px;
+    width: 100%;
+}
